@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "product sans";
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nleft, #nright{
+    display:flex;
+    gap: 5vw;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+#nav #centreatag{
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#hero{
+    width: 100%;
+    margin-top: 15vw;
+    padding: 0vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+#sustain{
+    width: 13vw;
+}
+#sustain h2{
+    font-size: 1.2vw;
+}
+#sustain p{
+    margin: 10px 0;
+    text-transform: capitalize;
+    font-size: .9vw;
+    opacity: .5;
+    line-height: 1;
+}
+
+#sustain #susimagewrapper{
+    width: 90%;
+    height: 14vw;
+    
+}
+#susimagewrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#ephemeral{
+    width: 30vw;
+    position: relative;
+}
+#ephemeral #headings {
+    z-index: 999;
+    position: absolute;
+    top: -8vw;
+    left: -6vw;
+}
+#ephemeral img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+#headings h1{
+    font-size: 6vw;
+    font-weight: 100;
+}
+#ephemeral p{
+    width: 45%;
+    font-size: 1.1vw;
+    font-weight: 530;
+    padding: 1vw 0;
+}
+
+#visit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2vw;
+}
+#visit h3{
+    color: #6b6969;
+}
+#circlevisit{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vw;
+    width: 2vw;
+    border: 1px solid #9c9999;
+    border-radius: 50%;
+
+}
+#circlevisit i{
+    color: #9c9999;
+}
+#motive{
+    display: flex;
+    justify-content: space-between;
+    margin: 7vw 0;;
+    padding: 3vw 10vw;
+}
+#motive h3{
+    font-size: 1.5vw;
+}
+#motive p{
+    position: relative;
+    right: 0;
+    width: 80%;
+    text-align: right;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 1.7;
+    font-size: 1.61vw;
+    font-weight: 500;
+   
+}
+#motive span{
+    display: inline-block;
+    margin: 10px 13px;
+    margin-bottom: -12.5px;
+    border-radius: 100px;
+    width: 120px;
+    height: 50px;
+    background-color: red;
+    font-size: 1.2vw;
+}
+#motive p #onespan{
+    width: 80px;
+    height: 50px;
+    background-image: url(images/1st\ small.jpg);
+    background-size: cover;
+    background-position: 87% 51%;
+}
+#motive p #twospan{
+    width: 120px;
+    height: 50px;
+    background-image: url(images/2nd.jpg);
+    background-size: cover;
+    background-position:61% 45%;
+}
+#motive p #threespan{
+    width: 80px;
+    height: 50px;
+    background-image: url(images/3rd.jpg);
+    background-size: cover;
+    background-position:bottom;
+}
+#pictures{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+}
+#picntext1{
+    width:20vw ;
+    height: 30vw;
+    font-size: 1.2vw;
+}
+#picntext1 p, #picntext2 p{
+    opacity: .8;
+    font-size: .87vw;
+    margin-top: 6px;
+    letter-spacing: .02vw;
+    width: 60%;
+}
+
+#pic1 img{
+    width: 100%;
+    height: 80%;
+    margin-bottom: 20px;
+}
+#picntext2{
+    width: 26vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    font-size: 1.2vw;
+}
+#pic2 img{
+    width: 100%;
+    height: 40vw;
+    margin-bottom:20px ;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+#bannerimg{
+    width: 60%;
+  
+}
+#bannerimg img{
+    width: 100%;
+
+}
+#bannertext{
+    width: 40%;
+    padding: 0 3vw;
+    font-size: 1.2vw;
+}
+#bannertext h1{
+    font-weight: 500;
+    letter-spacing: -.1vw;
+}#bannertext p{
+    margin-top:1.2vw;
+    width: 70%;
+}
+#future{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#future video{
+    opacity: .5;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+#ftext{
+    position: relative;
+    z-index: 999;
+}
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+}
+#ftext h1{
+    font-size: 2vw;
+}
+#ftext button{
+    padding: 1vw 1.3vw;
+    background-color: rgba(255, 255, 255, 0.278);
+    border: 1px solid rgb(181, 176, 176);
+    border-radius: 100px;
+    color:#666262;
+    font-size: 1vw;
+    margin-top: 1vw;
+}
