@@ -1,9 +1,12 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "product sans";
     box-sizing: border-box;
     
+}
+@font-face {
+    font-family: product-sans;
+    src: url(./fonts/Product-Sans-Regular.ttf);
 }
 html,body{
     width: 100%;
@@ -20,6 +23,7 @@ html,body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: product-sans;
 }
 #nleft, #nright{
     display:flex;
@@ -29,11 +33,12 @@ a{
     text-decoration: none;
     color: #000;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
     
 }
 #nav #centreatag{
-    font-size: 18px;
+    font-family: product-sans;
+    font-size: 22px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,6 +59,7 @@ a{
 }
 #sustain h2{
     font-size: 1.2vw;
+    font-family: product-sans;
 }
 #sustain p{
     margin: 10px 0;
@@ -61,6 +67,7 @@ a{
     font-size: .9vw;
     opacity: .5;
     line-height: 1;
+    font-family: product-sans;
 }
 
 #sustain #susimagewrapper{
@@ -82,6 +89,7 @@ a{
     position: absolute;
     top: -8vw;
     left: -6vw;
+    font-family: product-sans;
 }
 #ephemeral img{
     width: 100%;
@@ -89,6 +97,7 @@ a{
     object-fit: cover;
 } 
 #headings h1{
+    font-family: product-sans;
     font-size: 6vw;
     font-weight: 100;
 }
@@ -97,6 +106,7 @@ a{
     font-size: 1.1vw;
     font-weight: 530;
     padding: 1vw 0;
+    font-family: product-sans;
 }
 
 #visit{
@@ -130,6 +140,7 @@ a{
 }
 #motive h3{
     font-size: 1.5vw;
+    font-family: product-sans;
 }
 #motive p{
     position: relative;
@@ -151,6 +162,7 @@ a{
     width: 120px;
     height: 50px;
     font-size: 1.2vw;
+    
 }
 #motive p #onespan{
     width: 80px;
@@ -184,6 +196,7 @@ a{
     width:20vw ;
     height: 30vw;
     font-size: 1.2vw;
+    font-family: product-sans;
 }
 #picntext1 p, #picntext2 p{
     opacity: .8;
@@ -191,6 +204,7 @@ a{
     margin-top: 6px;
     letter-spacing: .02vw;
     width: 60%;
+    font-family: product-sans;
 }
 
 #pic1 img{
@@ -206,6 +220,7 @@ a{
     align-items: flex-end;
     text-align: right;
     font-size: 1.2vw;
+    font-family: product-sans;
 }
 #pic2 img{
     width: 100%;
@@ -231,10 +246,12 @@ a{
     width: 40%;
     padding: 0 3vw;
     font-size: 1.2vw;
+    font-family: product-sans;
 }
 #bannertext h1{
     font-weight: 500;
     letter-spacing: -.1vw;
+    font-family: product-sans;
 }#bannertext p{
     margin-top:1.2vw;
     width: 70%;
@@ -260,6 +277,7 @@ a{
 #ftext{
     position: relative;
     z-index: 999;
+    font-family: product-sans;
 }
 #ftext{
     display: flex;
@@ -270,6 +288,7 @@ a{
 }
 #ftext h1{
     font-size: 2vw;
+    font-family: product-sans;
 }
 #ftext button{
     padding: 1vw 1.3vw;
@@ -279,4 +298,5 @@ a{
     color:#666262;
     font-size: 1vw;
     margin-top: 1vw;
+    font-family: product-sans;
 }
